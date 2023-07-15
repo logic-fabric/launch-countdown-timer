@@ -1,0 +1,12 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  margin: 8rem 0;
+}
+
+.counter {
+  color: $tonic-500;
+  font-size: $jumbotron-size;
+}

@@ -1,0 +1,57 @@
+/* =======================
+   RAW TAGS DEFAULT STYLES
+   ======================= */
+
+html {
+  box-sizing: border-box;
+
+  color: $primary-500;
+  font-family: $font-text;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+
+  background-color: $neutral-900;
+  background-image: url(../../img/bg-stars.svg);
+
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 100vh;
+
+  background-image: url(../../img/pattern-hills.svg);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main,
+footer {
+  width: 100%;
+  max-width: $large-container-width;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+h1 {
+  margin: 8rem 0;
+
+  color: white;
+  text-align: center;
+}
