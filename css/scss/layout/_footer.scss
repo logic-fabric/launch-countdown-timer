@@ -1,0 +1,14 @@
+.footer__social {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    margin: 4rem 0;
+  }
+
+  a {
+    color: $primary-500;
+    font-size: 1.5rem;
+  }
+}

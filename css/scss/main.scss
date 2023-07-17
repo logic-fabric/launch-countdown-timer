@@ -9,6 +9,7 @@
 @import "vendors/normalize";
 
 // 3. Base stuff:
+@import "base/a11y";
 @import "base/tags";
 // @import "base/colors";
 // @import "base/responsive";
@@ -18,7 +19,7 @@
 
 // 4. Layout-related sections:
 // @import "layout/header";
-// @import "layout/footer";
+@import "layout/footer";
 
 // 5. Components:
 @import "components/timer";
